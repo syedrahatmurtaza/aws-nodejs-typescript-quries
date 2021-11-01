@@ -1,1 +1,1 @@
-
+// import { default as mondayActivityLogs } from './monday/activity_logs'

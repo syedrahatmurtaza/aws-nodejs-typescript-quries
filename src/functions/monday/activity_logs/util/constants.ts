@@ -1,0 +1,2 @@
+export const MONDAY_BASE_URL: string = 'https://api.monday.com/v2'
+export const MONDAY_API_KEY: string = 'eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjEzMTA3NTIwNiwidWlkIjoyNTY1NTc3MywiaWFkIjoiMjAyMS0xMS0wMVQxMDozMDowOC45NzVaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6MTAzMTAxNDMsInJnbiI6InVzZTEifQ.7c8uLTjERgphiWSamwybvGwXMCPEr0Jdna2QwKMtliU'

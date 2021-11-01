@@ -1,4 +1,5 @@
 import type { AWS } from '@serverless/typescript';
+import mondayActivityLogs from '@functions/monday/activity_logs'
 
 const serverlessConfiguration: AWS = {
   service: 'aws-nodejs-typescript-quries',
@@ -14,7 +15,7 @@ const serverlessConfiguration: AWS = {
       platform: 'node',
     },
   },
-  plugins: ['serverless-esbuild'],
+  plugins: ['serverless-esbuild', 'serverless-offline'],
   provider: {
     name: 'aws',
     runtime: 'nodejs14.x',
@@ -29,7 +30,7 @@ const serverlessConfiguration: AWS = {
     lambdaHashingVersion: '20201221',
   },
   // import the function via paths
-  functions: {  },
+  functions: { mondayActivityLogs },
 };
 
 module.exports = serverlessConfiguration;
