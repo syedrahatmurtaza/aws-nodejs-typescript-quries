@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "inlineSources": true,
+    "esModuleInterop": true,
     "baseUrl": ".",
     "paths": {
       "@functions/*": ["src/functions/*"],
