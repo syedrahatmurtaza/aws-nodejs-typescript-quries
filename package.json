@@ -15,6 +15,7 @@
     "@types/aws-sdk": "^2.7.0",
     "aws-sdk": "^2.1019.0",
     "axios": "^0.24.0",
+    "node-quickbooks": "^2.0.39",
     "typed-rest-client": "^1.8.6"
   },
   "devDependencies": {
